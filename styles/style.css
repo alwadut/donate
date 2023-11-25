@@ -6,10 +6,11 @@
 .cover-img{
     background-image: url(/images/donation0.jpg);
     height: 600px;
-    width: 1850px;
+    width: 1450px;
     justify-content: center;
     background-repeat: no-repeat;
     background-size:cover;
+    margin:auto;
 
 }
 .cover-titel{
@@ -126,4 +127,93 @@
     width: 50px;
     height: 50px;
     justify-content: left;
+}
+.donation-dis{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+}
+.donation-dis-det{
+    height: 100px;
+    width: 500px;
+}
+.donation-dis-det-head{
+
+}
+.donation-dis-det-head-p{
+
+}
+.contribute{
+    font-weight: 700;
+    font-size:15px;
+    color: aliceblue;
+    background-color:orangered;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 60px;
+}
+
+
+
+.donation-dis-1st{
+    height: 400px;
+    width: 400px;
+}
+.update{
+    text-align: center;
+    height: 300px;
+    width: 500px;
+    justify-content: center;
+    margin-left: 40%;
+    
+}
+.email{
+    justify-content: center;
+    height: 200px;
+    width: 600px;
+    background-color: bisque;
+
+}
+.email-box{
+    justify-content: center;
+    margin-top: 98px;
+    border: none;
+    background-color: darkgrey;
+    height:30px;
+    
+
+}
+.subscrive{
+    background-color: orangered;
+    width: 100px;
+    height: 30px;
+    border: none;
+    font-weight: 700;
+    color: aliceblue;
+    font-size: 15px;
+    
+
+}
+footer{
+    background-color: black;
+    width: 1400px;
+    height: 100px;
+    justify-content: center;
+    margin: auto;
+
+}
+footer h2{
+    color: aliceblue;
+    font-style: italic;
+    font: bold;
+    text-align: center;
+
+}
+footer h5{
+    color: aliceblue;
+    font-style: italic;
+    font: bold;
+    text-align: center;
 }
